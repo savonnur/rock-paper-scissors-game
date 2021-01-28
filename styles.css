@@ -1,0 +1,108 @@
+h1 {
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-size: 3rem;
+  color: pink;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h2 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 2rem;
+  color: pink;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+hr {
+  background-color: pink;
+  height: 2px;
+}
+
+body {
+  background-color: #bee5d3;
+}
+
+#result {
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-size: 2.7rem;
+  color: red;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.button-container {
+  display: inline;
+  float: left;
+}
+
+#rock {
+  background-color: pink;
+  margin-right: 10px;
+}
+
+#rock:hover {
+  background-color: yellow;
+}
+
+#paper {
+  background-color: pink;
+  margin-right: 10px;
+}
+
+#paper:hover {
+  background-color: yellow;
+}
+
+#scissors {
+  background-color: pink;
+  padding: 0 50px;
+}
+
+#scissors:hover {
+  background-color: yellow;
+}
+
+.computer {
+  padding-right: 300px;
+  /* padding-right: 40rem; */
+  display: inline;
+  float: right;
+}
+
+.restart {
+  text-align: center;
+  padding-top: 500px;
+  margin-top: 15px;
+}
+
+.restart_btn {
+  border: 3px solid black;
+  visibility: hidden;
+  background: FFC0CB;
+  background-image: -webkit-linear-gradient(top, FFC0CB, FFC0CB);
+  background-image: -moz-linear-gradient(top, FFC0CB, FFC0CB);
+  background-image: -ms-linear-gradient(top, FFC0CB, FFC0CB);
+  background-image: -o-linear-gradient(top, FFC0CB, FFC0CB);
+  background-image: linear-gradient(to bottom, FFC0CB, FFC0CB);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 27px;
+  background: #FFC0CB;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.restart_btn:hover {
+  background: #ffff00;
+  text-decoration: none;
+}
+
+.signature {
+  color:black;
+  font-family: serif;
+  text-align: center;
+}
